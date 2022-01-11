@@ -1,0 +1,471 @@
+@font-face{
+	font-family:"segoesc";
+	src: url("../fonts/segoesc.ttf") format("truetype");
+	font-style: normal;
+	font-weight: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+	margin:0;
+	border:0;
+	padding:0;
+	list-style:none;
+	box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+ }
+
+#container{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+   /* background-image: url("../img/frame.png");
+    background-repeat: no-repeat;*/
+    height: 272px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color: #262626;
+    clip-path: polygon(0 0, 100% 0%, 100% 65%, 50% 34%, 0 65%);
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 40px;
+    width: 100%;   
+    margin: auto;
+ }
+
+ul li{
+    list-style: none;
+    align-items: center;
+ }
+
+ul li a{
+    text-decoration: none;
+    color: #F4BFF5;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+a:hover{
+    background-color: #F4BFF5;
+    color: #000;
+    text-shadow: 0 0 10px #de4be0, 0 0 35px #de4be0, 0 0 60px #de4be0, 0 0 210px #de4be0;
+    box-shadow: 0 0 10px #de4be0, 0 0 35px #de4be0, 0 0 60px #de4be0, 0 0 210px #de4be0;
+    transition-property:initial;   
+   transition-duration: 1s;
+    }
+
+.menu{
+    background-color: #262626;
+    color: #F4BFF5;
+    text-shadow: none;
+    box-shadow: none;
+
+}
+
+ .new_menu{
+    background-color: #F4BFF5;
+    color: #000;
+    text-shadow: 0 0 10px #de4be0, 0 0 35px #de4be0, 0 0 60px #de4be0, 0 0 210px #de4be0;
+    box-shadow: 0 0 10px #de4be0, 0 0 35px #de4be0, 0 0 60px #de4be0, 0 0 210px #de4be0;
+
+ }   
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    width: 470px;
+    padding-top: 120px;
+}
+
+.newlog{
+    transform: translateX(-340px);
+    transition-property: all;
+    transition-delay: 0.1s;
+    transition-duration: 2s;
+    background-color: #d6d1d144;
+    display: flex;
+    visibility: visible;
+}
+
+#colortype{
+     height: 500px;
+     margin-top: 80px;
+     visibility: hidden;
+     opacity: 0;
+}
+
+.new{
+  position: fixed;
+  top: 25%;
+   right: 0;
+  bottom: 0;
+   width: 50%;
+ }
+
+ .new2{
+    position: fixed;
+    top: 0;
+     right: 0;
+    bottom: 0;
+     width: 100%;
+   }
+
+#type{
+    width: 100%;
+    height: 500px;
+}
+
+ h1{   
+    text-align: center;
+    color: #2D0A56;
+    text-shadow: #383838;
+}
+
+#circles{
+  display: flex;
+  height: 200px;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.localbox{
+    height: 150px;
+    width: 20%;
+}
+
+.localbox p{
+     font-weight: bold;
+     font-size: 0.8rem;
+     text-align: center;
+     padding-top: 15px;
+}
+
+#circle1{
+    height: 55%;
+    width: 60%;
+    background-color: #383838;
+    border-radius: 50px;
+    margin: auto;
+    display: block;
+}
+
+#circle2{
+    height: 55%;
+    width: 60%;
+    background-color: #1F5C79;
+    border-radius: 50px;
+    margin: auto;
+    display: block;
+}
+
+#circle3{
+    height: 55%;
+    width: 60%;
+    background-color: #29B3CE;
+    border-radius: 50px;
+    margin: auto;
+    display: block;
+}
+
+#circle4{
+    height: 55%;
+    width: 60%;
+    background-color: #CC1293;
+    border-radius: 50px;
+    margin: auto;
+    display: block;
+}
+
+#circle5{
+    height: 55%;
+    width: 60%;
+    background-color: #2D0A56;
+    border-radius: 50px;
+    margin: auto;
+    display: block;
+}
+
+#fonts{
+    display: flex;
+    margin: 30px auto;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    font-weight: bold;
+    height: 40%;
+}
+
+#font1{
+   font-family:"segoesc"; 
+   font-size: 1.7rem;
+   color: #2D0A56;
+}
+
+#font2{
+    font-family: 'nirmala-ui-regular', sans-serif;
+    font-size: 1.7rem;
+    color: #2D0A56;
+    font-weight: lighter;
+ }
+
+ #logo_variations h1{
+     margin-top: 80px;
+ }
+
+ #sectlogos{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+      min-height: 400px;
+      margin-top: 50px;
+  }
+
+ #caption{
+     padding-top: 50px;
+     width: 320px;
+     box-shadow: rgb(77, 45, 92) 12px 12px 50px -15px;
+     background-color: rgb(255, 255, 255);
+ }
+
+ #caption1{
+     width: 320px;
+     box-shadow: rgb(77, 45, 92) 12px 12px 50px -15px;
+    background-color: rgb(255, 255, 255);
+ }
+ #caption2{
+    width: 335px;
+    box-shadow: rgb(77, 45, 92) 12px 12px 50px -15px;
+    background-color: rgb(255, 255, 255);
+}
+
+#first_sect{
+    background-color: #d6d1d144;
+    min-height: 270px;
+}
+
+#first_sect h1{
+    padding-top: 4%;
+}
+
+#warnings{
+    height: 100%;
+}
+
+#sectwarning{
+    display: grid;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+#sectwarning li{
+    display: list-item;
+    list-style-type:disc;
+    text-align: justify;
+    transform: translateX(80px);
+}
+#sectwarning  li::marker{
+   color:  #29B3CE;
+   font-size: 2rem;
+}
+
+#not_logo{
+    margin-top: 30px;
+    margin-left:6%;
+    display: flex;
+   justify-content: space-evenly;
+    width: 90%;
+   align-items: center;    
+}
+
+#notlog{
+    width: 80%;
+    transform: rotate(45deg);
+}
+
+#notlog1{
+  width: 70%;
+  height: 230px;
+  margin-top: 20px;
+ }
+#notlog2{
+    width: 80%;
+    height: 230px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+#notlog3{
+    width: 80%;
+    height: 250px;
+ }
+
+#equis{
+  width: 20%;
+}
+#equis i{
+    font-size: 1.9rem;
+    color: rgb(223, 6, 6);
+ }
+
+ .disapear{
+     visibility: hidden;
+ }
+
+
+ /* RESPONSIVE */
+
+ @media screen and (min-width: 375px) and (max-width: 900px) {
+    #logo{
+        width: 270px;
+        padding-top: 120px;
+    }
+
+    .new{
+        position: fixed;
+        top: 25%;
+         right: 0;
+        bottom: 0;
+         width: 100%;
+     }
+      
+     .new2{
+     
+        height: min-content;
+        overflow:scroll;
+      }
+
+      #warnings{
+        height: min-content;
+    }
+
+    #colortype{
+        height: 100%;
+    }
+       
+    .newlog{
+        display: none;
+    }  
+
+    #sectlogos{
+        display: grid;
+        margin: auto;
+        height: max-content;
+        margin-top: 50px;
+     }
+     
+   
+    #caption{
+        padding-top: 50px;
+        width: 60%;
+        display: block;
+        margin: 20px auto;
+     
+    }
+   
+    #caption1{
+        width: 60%;
+        display: block;
+        margin: 20px auto;
+     }
+
+    #caption2{
+       width: 335px;
+       width: 60%;
+       display: block;
+       margin: 20px auto;
+   }
+
+   body{
+    width: 100%;
+    max-height: min-content;
+    overflow:scroll;
+    
+ }
+
+ .localbox{
+    height: 150px;
+    width: 20%;
+}
+
+
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+
+    #sectwarning li{
+        word-wrap: break-word;
+        transform: translateX(10px);
+        font-size: 1.2rem;
+        width: 90%;
+        margin: 0px 20px;
+    }
+    
+    #first_sect h1{
+        padding-top: 30%;
+        font-size: 1.2rem;
+    }
+
+    #not_logo{
+        display: block;
+        justify-content: space-evenly;
+        margin: auto;   
+    }
+
+    #not_logo img{
+        display: grid;
+        margin: auto;   
+    }
+
+    #equis{
+        width: 80%;
+        display: block;
+        margin: 50px auto;
+       
+      }
+
+  }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    #sectwarning li{
+        word-wrap: break-word;
+        transform: translateX(10px);
+       
+    }
+    
+    #first_sect h1{
+        padding-top: 10%;
+        font-size: 1.3rem;
+    }
+
+}
+
+
+
+@media screen and (min-width: 375px) and (max-width: 600px) {
+    
+    .localbox{
+        height: 45%;
+        width: 20%;
+    }
+
+}
