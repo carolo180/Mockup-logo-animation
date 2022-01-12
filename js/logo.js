@@ -130,7 +130,7 @@ variation.addEventListener('click', e =>{
                     <div id="sectlogos">
                       <img src='img/variation1.jpeg' id="caption1">
                       <img src='img/variation2.jpeg' id="caption2">
-                      <img src='img/captura.png' id="caption">
+                      <img src='img/Captura.PNG' id="caption">
                     </div>
 `
     
@@ -179,13 +179,13 @@ caution.addEventListener('click', e =>{
                         <i class="fas fa-times"></i><img src="img/logo.png" id="notlog">
                         </div>
                         <div id="equis">
-                             <i class="fas fa-times"></i><img src="img/ooo.png" id="notlog3">
+                             <i class="fas fa-times"></i><img src="img/ooo.PNG" id="notlog3">
                         </div>
                         <div id="equis">
                         <i class="fas fa-times"></i><img src="img/perspective.png" id="notlog1">
                         </div>
                         <div id="equis">
-                             <i class="fas fa-times"></i><img src="img/loag.png" id="notlog2">
+                             <i class="fas fa-times"></i><img src="img/loag.PNG" id="notlog2">
                         </div>
                     </div>
 `
