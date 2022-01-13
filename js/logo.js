@@ -56,8 +56,8 @@ colour.addEventListener('click', e =>{
  color.style.setProperty("visibility","visible")
  color.style.setProperty("opacity","1")
  color.style.setProperty("transition","all 5s ease")
- log.style.paddingTop="140px"
- log.style.width="450px"
+ log.style.paddingTop="180px"
+ log.style.width="350px"
  log.setAttribute('class','newlog')
 
 
@@ -104,14 +104,9 @@ types.addEventListener('click', e =>{
  color.style.setProperty("visibility","visible")
  color.style.setProperty("opacity","1")
  color.style.setProperty("transition","all 5s ease")
- log.style.paddingTop="140px"
- log.style.width="450px"
+ log.style.paddingTop="180px"
+ log.style.width="350px"
  log.setAttribute('class','newlog')
-
- 
-  
- 
-
 })
 
 variation.addEventListener('click', e =>{
@@ -196,7 +191,6 @@ colur.style.display="none"
 type.style.display="none"
 warnings.style.display="contents"
 color.setAttribute('class','new2')
-
 logo_variations.style.display="none"
 colour.setAttribute('class','menu')
 types.setAttribute('class','menu')
@@ -205,9 +199,5 @@ caution.setAttribute('class','new_menu')
 color.style.setProperty("opacity","1")
 color.style.setProperty("visibility","visible")
 log.setAttribute('class','disapear')
-
-
-
-
 
 })

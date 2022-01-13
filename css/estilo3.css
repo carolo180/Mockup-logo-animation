@@ -92,7 +92,7 @@ header{
 }
 
 #logo{
-    width: 470px;
+    width: 420px;
     padding-top: 120px;
 }
 
@@ -149,7 +149,7 @@ header{
 }
 
 .localbox{
-    height: 150px;
+    height: 140px;
     width: 20%;
 }
 
@@ -229,7 +229,7 @@ header{
  }
 
  #logo_variations h1{
-     margin-top: 80px;
+     margin-top: 60px;
  }
 
  #sectlogos{
@@ -237,7 +237,7 @@ header{
      align-items: center;
      justify-content: space-around;
       min-height: 400px;
-      margin-top: 50px;
+      margin-top: 20px;
   }
 
  #caption{
@@ -260,11 +260,11 @@ header{
 
 #first_sect{
     background-color: #d6d1d144;
-    min-height: 270px;
+    min-height: 220px;
 }
 
 #first_sect h1{
-    padding-top: 4%;
+    padding-top: 5%;
 }
 
 #warnings{
